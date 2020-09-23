@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class ControllerEnemy extends Controller
 {
-    //
+    public function index()
+    {
+        return view('admin.enemies.index');
+    }
 }
